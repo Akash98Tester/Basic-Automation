@@ -11,6 +11,7 @@ public class TestRunner2 {
 	@CucumberOptions(
 	    features = "src/test/resources/Features",
 	    glue = "stepdefinitions"
+		//new line
 	)
 	public class ParallelRunner extends AbstractTestNGCucumberTests {
 
